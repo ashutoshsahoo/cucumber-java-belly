@@ -5,7 +5,7 @@ import java.util.stream.Stream;
 public final class TestRunner {
     public static final String PLUGIN = "--plugin";
     private static String[] defaultOptions = {
-            "--glue", "com.ashu.practice", "classpath:features",
+           "--glue", "com.ashu.practice", "classpath:com/ashu/practice",
             PLUGIN, "pretty",
          //   PLUGIN, "json:reports/cucumber-report.json",
             PLUGIN, "html:reports/cucumber-report.html"
